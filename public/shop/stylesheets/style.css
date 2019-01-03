@@ -1,0 +1,121 @@
+/* NAVBAR STYLE */
+.navbar-brand {
+	padding: 0px; /* firefox bug fix */
+  }
+.navbar-nav > li > .dropdown-menu {
+	background-color: powderblue;
+}
+.navbar-nav > li > .dropdown-menu > a:hover, .navbar-nav > li > .dropdown-menu > a:focus {
+	background-color:yellowgreen;
+}
+
+/* ALERT STYLE */
+.closebtn {
+	margin-left: 15px;
+	color: black;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }  
+.closebtn:hover {
+	color: white;
+}
+
+/* JUMBOTRON STYLE */
+.jumbotron{
+    background: linear-gradient(to bottom, #00ff00 0%, #0066cc 100%) !important;
+	padding-bottom: 0 !important;
+}
+
+/* BODY STYLE */
+body{
+	background-color: lightblue !important;
+}
+
+/* FORM STYLES */
+.form-style-1{    
+	max-width: 450px;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+.form-style-1 fieldset{
+	border-radius: 20px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid limegreen;
+	padding: 20px;
+	background: lightgreen;
+}
+.form-style-1 label{
+	display: block;
+	margin: 0px 0px 10px 0px;
+}
+
+.form-style-2{    
+	max-width: 600px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.form-style-2 fieldset{
+	border-radius: 20px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid royalblue;
+	padding: 20px;
+	background: lightskyblue;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 120px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 input.input-field{
+    width: 48%;
+}
+.form-style-2 input.date-field{
+    width: auto;
+}
+.button-fs2{
+	background-color: midnightblue;
+	width: 100%;
+	border-style: none;
+	color: white;
+}
+
+th {
+	background-color: navy;
+	color: white;
+	text-align-last: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+td{
+	text-align: center;
+}
+
+.my-right-button{
+    display: flex; 
+    justify-content: center;
+}
+
+.card-header{
+    padding-bottom: 2px !important;
+}
+
+
+
+
+/* W3School color names: https://www.w3schools.com/colors/colors_names.asp */
+
+span {
+   word-spacing: normal;
+   letter-spacing: normal;
+   display: inline-block;
+}
